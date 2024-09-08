@@ -1,0 +1,632 @@
+[
+    {
+        "pl": "biuro",
+        "uk": "офіс",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "bieg",
+        "uk": "біг",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "biurko",
+        "uk": "стіл (письмовий)",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "czas",
+        "uk": "час",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "czasami",
+        "uk": "інколи",
+        "serf": "A1",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "dzień",
+        "uk": "день",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "drzemka",
+        "uk": "дрімота",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "dom",
+        "uk": "дім",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "drzewo",
+        "uk": "дерево",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "dżem",
+        "uk": "джем",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "energia",
+        "uk": "енергія",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "film",
+        "uk": "фільм",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "godzina",
+        "uk": "година",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "godziny",
+        "uk": "годин",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "gra",
+        "uk": "гра",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "gry planszowe",
+        "uk": "настільні ігри",
+        "serf": "B1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "herbata",
+        "uk": "чай",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "informacja",
+        "uk": "інформація",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "jabłko",
+        "uk": "яблуко",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "jajecznica",
+        "uk": "яєчня",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "kawa",
+        "uk": "кава",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "książka",
+        "uk": "книга",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "kolacja",
+        "uk": "вечеря",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "komputer",
+        "uk": "комп'ютер",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "kontrola",
+        "uk": "контроль",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "kurczak",
+        "uk": "курка",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "lekcja",
+        "uk": "урок",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "łóżko",
+        "uk": "ліжко",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "makaron",
+        "uk": "макарони",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "miasto",
+        "uk": "місто",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "nadzór",
+        "uk": "нагляд",
+        "serf": "B1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "nauka",
+        "uk": "наука",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "obiad",
+        "uk": "обід",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "obowiązki",
+        "uk": "обов’язки",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "owsianka",
+        "uk": "вівсянка",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "park",
+        "uk": "парк",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "plan",
+        "uk": "план",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "poczta",
+        "uk": "пошта",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "pokój",
+        "uk": "кімната",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "praca",
+        "uk": "робота",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "przerwy",
+        "uk": "перерви",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "przekąski",
+        "uk": "закуски",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "przepis",
+        "uk": "рецепт",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "rodzina",
+        "uk": "сім’я",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "równowaga",
+        "uk": "рівновага",
+        "serf": "B1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "ryba",
+        "uk": "риба",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "sałatka",
+        "uk": "салат",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "siłownia",
+        "uk": "тренажерний зал",
+        "serf": "B1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "śniadanie",
+        "uk": "сніданок",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "spacer",
+        "uk": "прогулянка",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "stolik",
+        "uk": "столик",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "sypialnia",
+        "uk": "спальня",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "teatr",
+        "uk": "театр",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "warzywa",
+        "uk": "овочі",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "wiadomości",
+        "uk": "новини",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "wiosna",
+        "uk": "весна",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "wyjście",
+        "uk": "вихід",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "zadanie",
+        "uk": "завдання",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "zasada",
+        "uk": "принцип",
+        "serf": "A2",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "zęby",
+        "uk": "зуби",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "zupa",
+        "uk": "суп",
+        "serf": "A1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "żywienie",
+        "uk": "харчування",
+        "serf": "B1",
+        "partOfSpeech": "noun"
+    },
+    {
+        "pl": "biegać",
+        "uk": "бігати",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "brać",
+        "uk": "брати",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "budzić",
+        "uk": "прокидатися",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "czuć się",
+        "uk": "почуватися",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "czytać",
+        "uk": "читати",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "eksperymentować",
+        "uk": "експериментувати",
+        "serf": "B1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "gotować",
+        "uk": "готувати",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "grać",
+        "uk": "грати",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "jeść",
+        "uk": "їсти",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "kłaść",
+        "uk": "лягати",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "kontrolować",
+        "uk": "контролювати",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "pracować",
+        "uk": "працювати",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "przychodzić",
+        "uk": "приходити",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "przeglądać",
+        "uk": "переглядати",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "przygotowywać",
+        "uk": "готуватися",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "relaksować się",
+        "uk": "розслаблятися",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "robić",
+        "uk": "робити",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "siadać",
+        "uk": "сідати",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "sprawdzać",
+        "uk": "перевіряти",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "śniadaniować",
+        "uk": "снідати",
+        "serf": "B1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "trzymać się",
+        "uk": "дотримуватися",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "usiąść",
+        "uk": "сісти",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "wstawać",
+        "uk": "вставати",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "wychodzić",
+        "uk": "виходити",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "zasypiać",
+        "uk": "засинати",
+        "serf": "A2",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "zrelaksować się",
+        "uk": "розслабитися",
+        "serf": "B1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "zostawać",
+        "uk": "залишатися",
+        "serf": "A1",
+        "partOfSpeech": "verb"
+    },
+    {
+        "pl": "codzienny",
+        "uk": "щоденний",
+        "serf": "A2",
+        "partOfSpeech": "adjective"
+    },
+    {
+        "pl": "ważny",
+        "uk": "важливий",
+        "serf": "A2",
+        "partOfSpeech": "adjective"
+    },
+    {
+        "pl": "wygodny",
+        "uk": "зручний",
+        "serf": "A2",
+        "partOfSpeech": "adjective"
+    },
+    {
+        "pl": "zielony",
+        "uk": "зелений",
+        "serf": "A1",
+        "partOfSpeech": "adjective"
+    },
+    {
+        "pl": "zimowy",
+        "uk": "зимовий",
+        "serf": "A2",
+        "partOfSpeech": "adjective"
+    },
+    {
+        "pl": "zły",
+        "uk": "поганий",
+        "serf": "A2",
+        "partOfSpeech": "adjective"
+    },
+    {
+        "pl": "codziennie",
+        "uk": "щодня",
+        "serf": "A2",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "dokładnie",
+        "uk": "точно",
+        "serf": "A2",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "jednocześnie",
+        "uk": "одночасно",
+        "serf": "B1",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "nigdzie",
+        "uk": "ніде",
+        "serf": "A2",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "odpowiednio",
+        "uk": "відповідно",
+        "serf": "B1",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "prawie",
+        "uk": "майже",
+        "serf": "A2",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "rzadko",
+        "uk": "рідко",
+        "serf": "A2",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "zawsze",
+        "uk": "завжди",
+        "serf": "A1",
+        "partOfSpeech": "adverb"
+    },
+    {
+        "pl": "około",
+        "uk": "приблизно",
+        "serf": "A1",
+        "partOfSpeech": "other"
+    },
+    {
+        "pl": "zdalnie",
+        "uk": "дистанційно",
+        "serf": "B1",
+        "partOfSpeech": "other"
+    }
+]
