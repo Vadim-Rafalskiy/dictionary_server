@@ -2,9 +2,7 @@ const mongoose = require('mongoose');
 
 const app = require('./app');
 
-const PORT = 3001;
-
-const { BD_HOST_DICTIONARY } = process.env;
+const { BD_HOST_DICTIONARY, PORT = 3001 } = process.env;
 
 mongoose
     .connect(BD_HOST_DICTIONARY)
