@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
 const morgan = require('morgan');
+require('dotenv').config();
 
 const wordsRouter = require('./routes/api/words-api');
 
