@@ -1,31 +1,33 @@
 const { ctrlWrapper } = require('../utils');
 
-const words = require('../data');
+const { Word } = require('../models/word');
+
+// const words = require('../data');
 
 const { HttpError } = require('../helpers');
 
 const getAllWords = async (req, res) => {
-    const allWords = await words.getAll();
+    const allWords = await Word.find();
     res.json(allWords);
 };
 
 const getWordById = async (req, res) => {
     const { id } = req.params;
 
-    const word = await words.getById(id);
+    const word = await Word.findById(id);
     if (!word) throw HttpError(404);
     res.json(word);
 };
 
 const addWord = async (req, res) => {
-    const newWord = await words.add(req.body);
+    const newWord = await Word.create(req.body);
     res.status(201).json(newWord);
 };
 
 const updateWordById = async (req, res) => {
     const { id } = req.params;
 
-    const updatedWord = await words.updateById(id, req.body);
+    const updatedWord = await Word.findByIdAndUpdate(id, req.body);
     if (!updatedWord) throw HttpError(404);
     res.json(updatedWord);
 };
@@ -33,7 +35,7 @@ const updateWordById = async (req, res) => {
 const deleteWordById = async (req, res) => {
     const { id } = req.params;
 
-    const deletedWord = await words.deleteById(id);
+    const deletedWord = await Word.findByIdAndDelete(id);
     if (!deletedWord) throw HttpError(404);
     res.json(deletedWord);
 };
