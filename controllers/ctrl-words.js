@@ -7,14 +7,15 @@ const { Word } = require('../models/word');
 const { HttpError } = require('../helpers');
 
 const getAllWords = async (req, res) => {
-    const allWords = await Word.find();
+    const allWords = await Word.find({}, '-createdAt -updatedAt');
     res.json(allWords);
 };
 
 const getWordById = async (req, res) => {
     const { id } = req.params;
 
-    const word = await Word.findById(id);
+    // const word = await Word.findById(id);
+    const word = await Word.findById(id, '-createdAt -updatedAt');
     if (!word) throw HttpError(404);
     res.json(word);
 };
@@ -27,7 +28,9 @@ const addWord = async (req, res) => {
 const updateWordById = async (req, res) => {
     const { id } = req.params;
 
-    const updatedWord = await Word.findByIdAndUpdate(id, req.body);
+    const updatedWord = await Word.findByIdAndUpdate(id, req.body, {
+        new: true,
+    });
     if (!updatedWord) throw HttpError(404);
     res.json(updatedWord);
 };
