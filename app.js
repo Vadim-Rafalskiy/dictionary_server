@@ -5,6 +5,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 require('dotenv').config();
 
+const authRouter = require('./routes/api/auth-api');
 const wordsRouter = require('./routes/api/words-api');
 
 const app = express();
