@@ -29,7 +29,7 @@ const wordSchema = new Schema(
 
 wordSchema.post('save', handleMongooseError);
 
-const addJoiSchema = Joi.object({
+const addWordJoiSchema = Joi.object({
     pl: Joi.string().required(),
     uk: Joi.string().required(),
     serf: Joi.string().required(),
@@ -38,4 +38,4 @@ const addJoiSchema = Joi.object({
 
 const Word = model('word', wordSchema);
 
-module.exports = { Word, addJoiSchema };
+module.exports = { Word, addWordJoiSchema };
