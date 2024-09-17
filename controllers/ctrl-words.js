@@ -2,8 +2,6 @@ const { ctrlWrapper } = require('../utils');
 
 const { Word } = require('../models/word');
 
-// const words = require('../data');
-
 const { HttpError } = require('../helpers');
 
 const getAllWords = async (req, res) => {
@@ -14,7 +12,6 @@ const getAllWords = async (req, res) => {
 const getWordById = async (req, res) => {
     const { id } = req.params;
 
-    // const word = await Word.findById(id);
     const word = await Word.findById(id, '-createdAt -updatedAt');
     if (!word) throw HttpError(404);
     res.json(word);
