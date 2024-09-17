@@ -5,8 +5,8 @@ const cors = require('cors');
 const morgan = require('morgan');
 require('dotenv').config();
 
-const authRouter = require('./routes/api/auth-api');
-const wordsRouter = require('./routes/api/words-api');
+const authRouter = require('./routes/api/auth-routes');
+const wordsRouter = require('./routes/api/words-routes');
 
 const app = express();
 
@@ -17,14 +17,14 @@ const accessLogStream = fs.createWriteStream(
     }
 );
 
-const logOptins =
+const logOptions =
     ':status   :method  :url  [:date]  :res[content-length] byte  :response-time ms';
 
-app.use(morgan(logOptins, { stream: accessLogStream }));
-
+app.use(morgan(logOptions, { stream: accessLogStream }));
 app.use(cors());
 app.use(express.json());
 
+app.use('/api/auth', authRouter);
 app.use('/api/words', wordsRouter);
 
 app.use((req, res) => {
