@@ -5,7 +5,13 @@ const { Word } = require('../models/word');
 const { HttpError } = require('../helpers');
 
 const getAllWords = async (req, res) => {
-    const allWords = await Word.find({}, '-createdAt -updatedAt');
+    const { _id: owner } = req.user;
+    const { page = 1, limit = 10 } = req.query;
+    const skip = (page - 1) * limit;
+    const allWords = await Word.find({ owner }, '-createdAt -updatedAt', {
+        skip,
+        limit,
+    }).populate('owner', 'name email');
     res.json(allWords);
 };
 
@@ -18,7 +24,6 @@ const getWordById = async (req, res) => {
 };
 
 const addWord = async (req, res) => {
-    const newWord = await Word.create(req.body);
     const { _id: owner } = req.user;
 
     const newWord = await Word.create({ ...req.body, owner });
