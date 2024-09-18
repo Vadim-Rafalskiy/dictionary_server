@@ -11,5 +11,6 @@ const { userJoiSchemas } = require('../../models/user');
 router.post('/register', validateBody(userJoiSchemas.register), ctrl.register);
 router.post('/login', validateBody(userJoiSchemas.login), ctrl.login);
 router.get('/current', authenticate, ctrl.getCurrent);
+router.post('/logout', authenticate, ctrl.logout);
 
 module.exports = router;
