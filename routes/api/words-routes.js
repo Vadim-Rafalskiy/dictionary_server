@@ -16,11 +16,12 @@ router.post('/', authenticate, validateBody(addWordJoiSchema), ctrl.addWord);
 
 router.put(
     '/:id',
+    authenticate,
     isValidId,
     validateBody(addWordJoiSchema),
     ctrl.updateWordById
 );
 
-router.delete('/:id', isValidId, ctrl.deleteWordById);
+router.delete('/:id', authenticate, isValidId, ctrl.deleteWordById);
 
 module.exports = router;
