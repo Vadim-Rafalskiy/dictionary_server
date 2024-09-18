@@ -25,6 +25,10 @@ const userSchema = new Schema(
                 '"password" must exist and must be at least 8 characters long',
             ],
         },
+        token: {
+            type: String,
+            default: '',
+        },
     },
     { versionKey: false, timestamps: true }
 );
