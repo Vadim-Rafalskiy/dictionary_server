@@ -19,6 +19,9 @@ const getWordById = async (req, res) => {
 
 const addWord = async (req, res) => {
     const newWord = await Word.create(req.body);
+    const { _id: owner } = req.user;
+
+    const newWord = await Word.create({ ...req.body, owner });
     res.status(201).json(newWord);
 };
 
